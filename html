@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio — Étudiant en génie informatique</title>
+  <meta name="description" content="Portfolio d'un étudiant en génie informatique : compétences et projets.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top">Prénom Nom</a>
+    <nav aria-label="Navigation principale">
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-text">
+        <h1>Je code, je teste, je recommence jusqu'à ce que ça marche.</h1>
+        <p class="lead">Étudiant en première année de génie informatique, je construis des petits programmes, des bases de données et des pages web pour comprendre comment les choses fonctionnent vraiment.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#projets">Voir mes projets</a>
+          <a class="btn btn-ghost" href="#contact">Me contacter</a>
+        </div>
+      </div>
+
+      <aside class="profile" aria-label="Résumé du profil">
+        <dl>
+          <div><dt>Formation</dt><dd>Licence 1, Génie informatique</dd></div>
+          <div><dt>Langages</dt><dd>Python, C, JavaScript</dd></div>
+          <div><dt>Données</dt><dd>SQL, MySQL</dd></div>
+          <div><dt>Je cherche</dt><dd>Projets d'équipe et stage d'été</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="section" id="competences">
+      <h2>Ce que je maîtrise</h2>
+      <div class="skills">
+        <article>
+          <h3>Programmation</h3>
+          <p>Algorithmes en Python, programmes en C, interactivité web en JavaScript.</p>
+        </article>
+        <article>
+          <h3>Bases de données</h3>
+          <p>Modélisation, algèbre relationnelle et requêtes SQL avec MySQL.</p>
+        </article>
+        <article>
+          <h3>Mathématiques</h3>
+          <p>Algèbre linéaire : matrices, systèmes d'équations, espaces vectoriels.</p>
+        </article>
+        <article>
+          <h3>Matériel</h3>
+          <p>Électronique de base et maintenance informatique : diagnostic et réparation.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projets">
+      <h2>Projets</h2>
+      <ul class="projects">
+        <li>
+          <div>
+            <h3>Gestionnaire de bibliothèque</h3>
+            <p>Base de données MySQL avec emprunts, retours et recherche par auteur.</p>
+          </div>
+          <p class="tags">SQL · MySQL</p>
+        </li>
+        <li>
+          <div>
+            <h3>Calculatrice de matrices</h3>
+            <p>Addition, produit, déterminant et inverse, écrits en Python sans bibliothèque.</p>
+          </div>
+          <p class="tags">Python</p>
+        </li>
+        <li>
+          <div>
+            <h3>Jeu du pendu en console</h3>
+            <p>Un jeu complet en C : tirage du mot, saisie sécurisée et gestion des erreurs.</p>
+          </div>
+          <p class="tags">C</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Travaillons ensemble</h2>
+      <p>Un projet, une question, une idée de stage ? Écrivez-moi, je réponds sous deux jours.</p>
+      <a class="mail" href="mailto:prenom.nom@exemple.com">prenom.nom@exemple.com</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Prénom Nom</p>
+  </footer>
+</body>
+</html>
